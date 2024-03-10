@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- for tailwind -->
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- for icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href=”./output.css” rel=”stylesheet”>
+    <link href=”./index.css” rel=”stylesheet”>
+    <link rel="stylesheet" href="main.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important tutorials</title>
+</head>
+
+<body>
+    <nav class="flex-col" style="box-shadow: 0 4px 20px rgba(128, 0, 128, 0.747);">
+
+
+        <nav class="navbar sticky top-0 flex flex-wrap justify-between items-center p-4  border border-black-[5px] ">
+            <div class="home text-purple-600">
+                <a href="index.html" class="text-2xl font-extrabold ">Code with Pratik</a>
+            </div>
+            <div class="menu-icon block md:hidden">
+                <button class="text-3xl text-purple-600 px-2"
+                    onclick="document.querySelector('.menu').classList.toggle('hidden');document.querySelector('.menu-icon').classList.toggle('hidden')">
+                    &#9776;
+                </button>
+            </div>
+            <div class="links text-black hidden md:block  ">
+                <ul class="flex flex-initial text-sm">
+                    <li class="mr-6">
+                        <i class="fa fa-home "></i>
+                        <a href="index.html" class=" ">Home</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-graduation-cap "></i>
+                        <a href="courses.html" class=" ">Courses</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-video "></i>
+                        <a href="tutorial.html" class=" ">Tutorial</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class='fa fa-tv '></i>
+                        <a href="cse.html" class=" ">CSE</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-book "></i>
+                        <a href="index.html" class=" ">Notes</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-address-book "></i>
+                        <a href="contact.html" class=" ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu hidden md:hidden relative z-50 ">
+                <div class="backdrop1 fixed inset-0 " style="background-color: #d4a9ff9f;">
+                    <nav
+                        class="fixed top-0 left-0 bottom-0 flex flex-col bg-purple-500 overflow-y-auto w-5/6 sm:w-1/4 py-6 px-6 ">
+                        <div class="close text px-6">
+                            <button class="text-3xl text-white p-2"
+                                onclick="document.querySelector('.menu').classList.toggle('hidden');document.querySelector('.menu-icon').classList.toggle('hidden')">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="text-white text-xl px-6">
+                            <ul class="list-none">
+                                <li class=" m-3 ">
+                                    <a href="index.html" class=" ">Home</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="courses.html" class=" ">Courses</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="tutorial.html" class=" ">Tutorial</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="cse.html" class=" ">CSE</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="index.html" class=" ">Notes</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="contact.html" class=" ">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </nav>
+
+        <nav class="px-10 py-4">
+            <div class="flex justify-between items-center" style="color: #7e22ce;">
+                <div>
+                    <i class="fa fa-home"></i>
+                </div>
+                <div>
+                    <ul class="languages list-none flex flex-row  font-bold font-mono  space-x-3">
+                        <li>
+                            <a href="/index.html#html">
+                                HTML
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#css">
+                                CSS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#javascript">
+                                JAVASCRIPT
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#c">
+                                C
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#c++">
+                                C++
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#java">
+                                JAVA
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#python">
+                                PYTHON
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdownLanguages hidden my-2 justify-center">
+                    <Label name="" id="" class="Label-list p-2 bg-white border border-purple-500-[3px]  rounded-lg "
+                        onclick="document.querySelector('.dropdown-content').classList.toggle('hidden')">
+                        Languages
+                        <i class="fa fa-caret-down"></i>
+                    </Label>
+                    <div class="dropdown-content absolute left-0  border-b-4 border-t-4 border-purple-500  hidden mt-8"
+                        style="width: 100vw;box-shadow: 0 0 15px black;">
+                        <div class="langItem1 flex flex-col px-2 items-center justify-center">
+                            <a href="/index.html#html" class="langItem">HTML</a>
+                            <a href="/index.html#css" class="langItem">CSS</a>
+                            <a href="/index.html#js" class="langItem">JAVASCRIPT</a>
+                            <a href="/index.html#c" class="langItem">C</a>
+                            <a href="/index.html#c++" class="langItem">C++</a>
+                            <a href="/index.html#java" class="langItem">JAVA</a>
+                            <a href="/index.html#python" class="langItem">PYTHON</a>
+                        </div>
+                    </div>
+                    <!-- <option value="" class="langItem" >Languages</option>
+                    <option value="" class="langItem" >HTML</option>
+                    <option value="" class="langItem">CSS</option>
+                    <option value="" class="langItem">JAVASCRIPT</option>
+                    <option value="" class="langItem">C</option>
+                    <option value="" class="langItem">C++</option>
+                    <option value="" class="langItem">JAVA</option>
+                    <option value="" class="langItem">PYTHON</option> -->
+                </div>
+
+                <div class="flex flex-row items-center justify-center space-x-1 ">
+                    <i class="fa fa-search" onclick="document.querySelector('.search').classList.toggle('hidden')"></i>
+                    <input type="text"
+                        class="search absolute right-0  mt-32 hidden rounded-lg border-4 border-purple-600 outline-none p-1 sm:m-0 sm:relative ">
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <!-- navigation bar end -->
+
+    <!-- notes cards start -->
+
+    <div class="content my-5 text-3xl font-semibold pb-4 pt-8 text-gray-700">
+        <div class="heading flex justify-center">
+            Some tutorials for you...
+        </div>
+    </div>
+
+
+    <div class="container m-auto border-2 border-purple-900 rounded-md p-4 ">
+        <div class="head flex flex-row items-center space-x-2">
+            <div class="title text-2xl border-b-2 border-purple-600 inline-block text-yellow-400">Learn Javascript</div>
+            <div class="langIco border-yellow-400 " >
+                <img src="/img/js.png" alt="" height="32px" width="32px">
+            </div>
+        </div>
+
+
+        <div class="videoArea grid md:grid-cols-2 lg:grid-cols-3 gap-3 ">
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgJs h-auto max-w-full  col-span-1">
+                    <img src="/img/jsThumb1.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=ER9SspLe4Hg&list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR"
+                            class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Javascript entire course in one playlist| By CodeWithHarry
+                    </div>
+                    <div class="line w-full h-1 bg-yellow-300 m-1"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: CodeWithHarry</div>
+                        <div class="views">Views: 1.5M</div>
+                        <div class="topic">Topic: Javascript</div>
+                        <div class="list">[Playlist 103 videos]</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgJs w-full col-span-1">
+                    <img src="/img/jsThumb2.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Javascript Tutorial for Beginners: Learn Javascript in 1 Hour
+                    </div>
+                    <div class="line w-full h-1 bg-yellow-300 m-1"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: Programming With Mosh</div>
+                        <div class="views">Views: 12M</div>
+                        <div class="topic">Topic: Javascript</div>
+                        <div class="list">[Single Video]</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgJs w-full col-span-1">
+                    <img src="/img/jsThumb3.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv"
+                            class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        JavaScript tutorial for beginners 🌐
+                    </div>
+                    <div class="line w-full h-1 bg-yellow-300 m-1"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: Bro Code</div>
+                        <div class="views">Views: 68K</div>
+                        <div class="topic">Topic: Javascript</div>
+                        <div class="list">[Playlist 80 Videos]</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgJs w-full col-span-1">
+                    <img src="/img/jsThumb4.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=AWSMXQEqZvo&pp=ygUSamF2YXNjcmlwdCByb2FkbWFw" class=" "
+                            target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        JavaScript Roadmap for Beginners 2023 | Learn How to Become a Javascript Developer
+                    </div>
+                    <div class="line w-full h-1 bg-yellow-300 m-1"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: WsCube Tech</div>
+                        <div class="views">Views: 51K</div>
+                        <div class="topic">Topic: Javascript</div>
+                        <div class="list">[Single Video]</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgJs w-full col-span-1">
+                    <img src="/img/jsThumb5.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link  p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=1S8SBDhA7HA&list=PL0Zuz27SZ-6N3bG4YZhkrCL3ZmDcLTuGd"
+                            class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Javascript Closure Tutorial | Advanced JavaScript Tutorials
+                    </div>
+                    <div class="line w-full h-1 bg-yellow-300 m-1"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: CodeWithHarry</div>
+                        <div class="views">Views: 122K</div>
+                        <div class="topic">Topic: Javascript</div>
+                        <div class="list">[Playlist 19 Videos]</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- c/cpp` -->
+
+
+    <div class="container m-auto border-2 border-purple-900 rounded-md p-4 mt-5">
+
+        <div class="head  flex flex-row items-center space-x-2">
+            <div class="title text-2xl border-b-2 border-purple-600 inline-block " style="color: #669bd2;">C and C++</div>
+            <div class="langIco  " style="border: #669bd2;" >
+                <img src="/img/c.png" alt="" height="32px" width="32px">
+            </div>
+        </div>
+
+
+        <div class="videoArea grid md:grid-cols-2 lg:grid-cols-3 gap-3 ">
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCP w-full col-span-1">
+                    <img src="/img/cppThumb1.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
+                            class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Introduction to C++ | Data Structures and Algorithms | Basic to Advanced | Whole Series
+                    </div>
+                    <div class="line w-full h-1 m-1" style="background-color: #669bd2;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: ApnaCollage</div>
+                        <div class="views">Views: 7.7M</div>
+                        <div class="topic">Topic: C++</div>
+                        <div class="list">[Playlist 226 videos]</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- channel -->
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCp  col-span-1 relative">
+                    <img src="/img/lowlvl.jpg" alt="" class=" absolute top-0 h-full w-full "
+                        style="opacity: 0.6;filter: blur(2px);">
+                    <img src="/img/lowlvl.jpg" alt=""
+                        class="absolute left-1/2 transform translate-x-1/2 w-52 mx-auto m-2 shadow-2xl  h-auto rounded-full z-50">
+
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/@LowLevelLearning" class=" " target="_blank">Visit channel</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Great channel to learn C and C++ thoroughly | LowLevelLearning
+                    </div>
+                    <div class="line w-full h-1  m-1" style="background-color: #669bd2;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: LowLevelLearning</div>
+                        <div class="views">Subs: 427K</div>
+                        <div class="topic">Topic: C/C++</div>
+                        <div class="list">[Total 177 Videos]</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCp  rounded-full max-w-full col-span-1">
+                    <img src="/img/cppThumb3.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link  p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S"
+                            class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        C Programming tutorials | Simple language, basics, C programming for beginners By acute Jenny
+                    </div>
+                    <div class="line w-full h-1  m-1" style="background-color: #669bd2;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: Jenny's Lecture CS IT</div>
+                        <div class="views">Views: 2.3M</div>
+                        <div class="topic">Topic: Programming in C</div>
+                        <div class="list">[Playlist 150 Videos]</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container m-auto border-2 border-purple-900 rounded-md p-4 mt-5">
+        <div class="head  flex flex-row items-center space-x-2">
+            <div class="title text-2xl border-b-2 border-purple-600 inline-block " style="color: #ef9317;">Java 🐐</div>
+            <div class="langIco  " style="border:#ef9317;" >
+                <img src="/img/java.svg" alt="" height="32px" width="32px">
+            </div>
+        </div>
+
+        <div class="videoArea grid md:grid-cols-2 lg:grid-cols-3 gap-3 ">
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCP w-full col-span-1">
+                    <img src="/img/javaThumb2.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=VZg5r9i90z0&pp=ygUZamF2YSBmdWxsIGNvdXJzZSBvbmUgc2hvdA%3D%3D"
+                            class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Java full course for beginners. | Java 9hrs full course | By LearnCoding
+                    </div>
+                    <div class="line w-full h-1 m-1" style="background-color: #ef9317;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: LearnCoding</div>
+                        <div class="views">Views: 3.7M</div>
+                        <div class="topic">Topic: Java</div>
+                        <div class="list">[Single Video]</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- channel -->
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCp w-full col-span-1 relative">
+                    <img src="/img/javaThumb4_.jpg" alt="" class=" absolute top-0 h-full w-auto  " style="opacity: 0.8;filter: blur(2px);">
+                    <img src="/img/javaThumb4.jpg" alt="" class="absolute left-1/2 transform translate-x-1/2 w-52 mx-auto m-2 shadow-2xl  h-auto rounded-full z-50">
+
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/@BroCodez" class=" " target="_blank">Visit channel</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        This channel is dedicated to providing free education to those that can't afford college, bootcamps, and whatever crap coding gurus try to sell you
+                    </div>
+                    <div class="line w-full h-1  m-1" style="background-color: #ef9317;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: BroCode</div>
+                        <div class="views">Subs: 1.685M</div>
+                        <div class="topic">Topic: Java(All Langs)</div>
+                        <div class="list">[Total 682 Videos]</div>
+                    </div>
+                </div>
+            </div>
+            <!-- channel -->
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCp  col-span-1 relative">
+                    <img src="/img/javaThumb1.png" alt="" class=" absolute top-0 h-full w-full "
+                        style="opacity: 0.6;filter: blur(2px);">
+                    <img src="/img/javaThumb1_.jpg" alt=""
+                        class="absolute left-1/2 transform translate-x-1/2 w-52 mx-auto m-2 shadow-2xl  h-auto rounded-full z-50">
+
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/@Telusko" class=" " target="_blank">Visit channel</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Learn java from scratch | Java fullstack with Spring. | By Telusko
+                    </div>
+                    <div class="line w-full h-1  m-1" style="background-color: #ef9317;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: Telusko</div>
+                        <div class="views">Subs: 2.25M</div>
+                        <div class="topic">Topic: Java</div>
+                        <div class="list">[Total 1.9K Videos]</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- channel -->
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCp  col-span-1 relative">
+                    <img src="/img/javaThumb3_.jpg" alt="" class=" absolute top-0 h-full w-full "
+                        style="opacity: 0.6;filter: blur(2px);">
+                    <img src="/img/javaThumb3.jpg" alt=""
+                        class="absolute left-1/2 transform translate-x-1/2 w-52 mx-auto m-2 shadow-2xl  h-auto rounded-full z-50">
+
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link bg-purple-700 p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/@edurekaIN" class=" " target="_blank">Visit channel</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Channel covering all java basics also other languages.  | EdurekaIn
+                    </div>
+                    <div class="line w-full h-1  m-1" style="background-color: #ef9317;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: Edureka!</div>
+                        <div class="views">Subs: 3.94M</div>
+                        <div class="topic">Topic: Java</div>
+                        <div class="list">[Total 10k Videos]</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="video grid grid-rows-2 max-w-sm relative m-2 bg-purple-300 shadow-2xl shadow-purple-700 ">
+                <div class="imgCp  rounded-full max-w-full col-span-1">
+                    <img src="/img/javaThumb5.jpg" alt="" class="h-full">
+                </div>
+                <div class="text p-3 col-span-1">
+                    <div
+                        class="link  p-2 rounded-md text-white absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-2 shadow-sm">
+                        <a href="https://www.youtube.com/watch?v=uGMwcITtnNM&list=PLdBwVRHjcI__HBqxd51g3j3GJSRaocWZ7"
+                            class=" " target="_blank">Watch Now</a>
+                    </div>
+                    <div class="title mt-4 m-1 text-lg ">
+                        Introduction To Advance Java | Advanced Java | Servlet Jsp 🔥
+                    </div>
+                    <div class="line w-full h-1  m-1" style="background-color: #ef9317;"></div>
+                    <div class="info mt-2 m-1 text-sm">
+                        <div class="author">Author: Feel Free To Code</div>
+                        <div class="views">Views: 2.3M</div>
+                        <div class="topic">Topic: Advance Java</div>
+                        <div class="list">[Playlist 45 Videos]</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer mt-4 p-4 dark:bg-gray-800 dark:text-white">
+        <div class="flex flex-wrap sm:flex-row  sm:justify-between items-center mx-8">
+            <div
+                class="pfp flex flex-wrap title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-gray-200">
+                <img src="/img/logo.png" alt="logo" height="56px" width="56px">
+                <div class="text-purple-500 p-2">Code With Appi</div>
+                <div
+                    class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 mt-4 md:mt-2 mb-2 md:mb-0 text-center dark:text-gray-400">
+                    A WebProject By >CSE-C Students</div>
+            </div>
+            <div class="copy"></div>
+            <div class="contact mx-auto sm:mx-0">
+                <i class="fa fa-users"></i>
+                <a href="/contact.html">Social Media Handles</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

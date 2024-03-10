@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- for tailwind -->
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- for icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href=”./output.css” rel=”stylesheet”>
+    <link href=”./index.css” rel=”stylesheet”>
+    <link rel="stylesheet" href="main.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+
+<body>
+    <nav class="flex-col" style="box-shadow: 0 4px 20px rgba(128, 0, 128, 0.747);">
+
+
+        <nav class="navbar sticky top-0 flex flex-wrap justify-between items-center p-4  border border-black-[5px] ">
+            <div class="home text-purple-600">
+                <a href="index.html" class="text-2xl font-extrabold ">Code with Pratik</a>
+            </div>
+            <div class="menu-icon block md:hidden">
+                <button class="text-3xl text-purple-600 px-2"
+                    onclick="document.querySelector('.menu').classList.toggle('hidden');document.querySelector('.menu-icon').classList.toggle('hidden')">
+                    &#9776;
+                </button>
+            </div>
+            <div class="links text-black hidden md:block  ">
+                <ul class="flex flex-initial text-sm">
+                    <li class="mr-6">
+                        <i class="fa fa-home "></i>
+                        <a href="index.html" class=" ">Home</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-graduation-cap "></i>
+                        <a href="courses.html" class=" ">Courses</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-video "></i>
+                        <a href="tutorial.html" class=" ">Tutorial</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class='fa fa-tv'></i>
+                        <a href="cse.html" class=" ">CSE</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-book "></i>
+                        <a href="index.html" class=" ">Notes</a>
+                    </li>
+                    <li class="mr-6">
+                        <i class="fa fa-address-book "></i>
+                        <a href="contact.html" class=" ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu hidden md:hidden relative z-50 ">
+                <div class="backdrop1 fixed inset-0 " style="background-color: #d4a9ff9f;">
+                    <nav
+                        class="fixed top-0 left-0 bottom-0 flex flex-col bg-purple-500 overflow-y-auto w-5/6 sm:w-1/4 py-6 px-6 ">
+                        <div class="close text px-6">
+                            <button class="text-3xl text-white p-2"
+                                onclick="document.querySelector('.menu').classList.toggle('hidden');document.querySelector('.menu-icon').classList.toggle('hidden')">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="text-white text-xl px-6">
+                            <ul class="list-none">
+                                <li class=" m-3 ">
+                                    <a href="index.html" class=" ">Home</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="about.html" class=" ">Courses</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="tutorial.html" class=" ">Tutorial</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="cse.html" class=" ">CSE</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="index.html" class=" ">Notes</a>
+                                </li>
+                                <li class="m-3">
+                                    <a href="contact.html" class=" ">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </nav>
+
+        <nav class="px-10 py-4">
+            <div class="flex justify-between items-center" style="color: #7e22ce;">
+                <div>
+                    <i class="fa fa-home"></i>
+                </div>
+                <div>
+                    <ul class="languages list-none flex flex-row  font-bold font-mono  space-x-3">
+                        <li>
+                            <a href="/index.html#html">
+                                HTML
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#css">
+                                CSS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#javascript">
+                                JAVASCRIPT
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#c">
+                                C
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#c++">
+                                C++
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#java">
+                                JAVA
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#python">
+                                PYTHON
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdownLanguages hidden my-2 justify-center">
+                    <Label name="" id="" class="Label-list p-2 bg-white border border-purple-500-[3px]  rounded-lg "
+                        onclick="document.querySelector('.dropdown-content').classList.toggle('hidden')">
+                        Languages
+                        <i class="fa fa-caret-down"></i>
+                    </Label>
+                    <div class="dropdown-content absolute left-0  border-b-4 border-t-4 border-purple-500  hidden mt-8"
+                        style="width: 100vw;box-shadow: 0 0 15px black;">
+                        <div class="langItem1 flex flex-col px-2 items-center justify-center">
+                            <a href="/index.html#html" class="langItem">HTML</a>
+                            <a href="/index.html#css" class="langItem">CSS</a>
+                            <a href="/index.html#js" class="langItem">JAVASCRIPT</a>
+                            <a href="/index.html#c" class="langItem">C</a>
+                            <a href="/index.html#c++" class="langItem">C++</a>
+                            <a href="/index.html#java" class="langItem">JAVA</a>
+                            <a href="/index.html#python" class="langItem">PYTHON</a>
+                        </div>
+                    </div>
+                    <!-- <option value="" class="langItem" >Languages</option>
+                    <option value="" class="langItem" >HTML</option>
+                    <option value="" class="langItem">CSS</option>
+                    <option value="" class="langItem">JAVASCRIPT</option>
+                    <option value="" class="langItem">C</option>
+                    <option value="" class="langItem">C++</option>
+                    <option value="" class="langItem">JAVA</option>
+                    <option value="" class="langItem">PYTHON</option> -->
+                </div>
+
+                <div class="flex flex-row items-center justify-center space-x-1 ">
+                    <i class="fa fa-search" onclick="document.querySelector('.search').classList.toggle('hidden')"></i>
+                    <input type="text"
+                        class="search absolute right-0  mt-32 hidden rounded-lg border-4 border-purple-600 outline-none p-1 sm:m-0 sm:relative ">
+                </div>
+            </div>
+        </nav>
+    </nav>
+        <!-- navigation bar end -->
+
+        <!-- notes cards start -->
+
+    <div class="content my-5 text-3xl font-semibold pb-4 pt-8 text-gray-700">
+        <div class="heading flex justify-center">
+            Know more about us...
+        </div>
+    </div>
+
+    <div class="profiles">
+
+
+        <!-- card number 1 -->
+        <div class="card1 p-1 py-1 md:py-0 px-1 md:p-5 md:px-10 my-10">
+            <div class="content1 grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid md:grid-cols-4 justify-start bg-purple-400 rounded-md drop-shadow-sm p-5 mx-8 md:mx-16">
+                <div class="img row-span-1 md:col-span-1 shadow-sm">
+                    <img src="/img/profile.png" alt="profile" class="rounded-full w-56 h-auto max-w-full p-0 m-0">
+                </div>
+
+                <div class="info row-span-1 md:row-auto md:col-span-2 flex-col pl-2 border-0 md:border-l-2 md:border-gray-200">
+                    <h1 class="text-4xl font-extrabold">I'm Pratik Santi</h1>
+                    <p>I'm enthusiastic software developer at D.Y.P. Collage of Engineering In
+                         Kolhapur, Bawda.
+                        </p>
+                        <p> 
+                        I'm a full stack developer and I'm passionate about web development and
+                        I'm also a competitive programmer.
+                    </p>
+                </div>
+
+                <div class="socialLinks row-span-1 md:col-span-1 flex flex-wrap p-3 h-auto  border-0 md:border-l-2 md:border-gray-300">
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.linkedin.com/"
+                        target="_blank">
+                            <img src="/img/linkedin.svg" alt="" >
+                        </a>
+                    </div>
+
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.instagram.com/"
+                        target="_blank">
+                            <img src="/img/instagram.svg" alt="" >
+                        </a>
+                    </div>
+
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.x.com/"
+                        target="_blank"
+                        >
+                            <img src="/img/twitter.svg" alt="" >
+                        </a>
+                    </div>
+
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.facebook.com/"
+                        target="_blank">
+                            <img src="/img/facebook.svg" alt="" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- suresh appi -->
+      
+        <div class="card1 p-1 py-1 md:py-0 px-1 md:p-5 md:px-10 my-10">
+            <div class="content1 grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid md:grid-cols-4 justify-start bg-purple-400 rounded-md drop-shadow-sm p-5 mx-8 md:mx-16">
+                <div class="img row-span-1 md:col-span-1 shadow-sm">
+                    <img src="/img/profile.png" alt="profile"  class="rounded-full w-56 h-auto max-w-full p-0 m-0">
+                </div>
+
+                <div class="info row-span-1 md:row-auto md:col-span-2 flex-col pl-2 border-0 md:border-l-2 md:border-gray-200">
+                    <h1 class="text-4xl font-extrabold">I'm Suresh Halkude</h1>
+                    <p>I'm student at D.Y.P. Collage of Engineering In 
+                        Kolhapur, Bawda. Currently doing B.Tech  in Computer
+                        Engineering. 
+                       </p>
+
+                </div>
+
+                <div class="socialLinks row-span-1 md:col-span-1 flex flex-wrap p-3 h-auto  border-0 md:border-l-2 md:border-gray-300">
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.linkedin.com/"
+                        target="_blank">
+                            <img src="/img/linkedin.svg" alt="" >
+                        </a>
+                    </div>
+
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.instagram.com/"
+                        target="_blank">
+                            <img src="/img/instagram.svg" alt="" >
+                        </a>
+                    </div>
+
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.x.com/"
+                        target="_blank"
+                        >
+                            <img src="/img/twitter.svg" alt="" >
+                        </a>
+                    </div>
+
+                    <div class="lnkd w-12 h-12 m-1 mx-3">
+                        <a href="https://www.facebook.com/"
+                        target="_blank">
+                            <img src="/img/facebook.svg" alt="" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- sanket bhau -->
+
+
+       <div class="card1 p-1 py-1 md:py-0 px-1 md:p-5 md:px-10 my-10">
+        <div class="content1 grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid md:grid-cols-4 justify-start bg-purple-400 rounded-md drop-shadow-sm p-5 mx-8 md:mx-16">
+            <div class="img row-span-1 md:col-span-1 shadow-sm">
+                <img src="/img/profile.png" alt="profile" class="rounded-full w-56 h-auto max-w-full p-0 m-0">
+            </div>
+
+            <div class="info row-span-1 md:row-auto md:col-span-2 flex-col pl-2 border-0 md:border-l-2 md:border-gray-200">
+                <h1 class="text-4xl font-extrabold">I'm Sankat Santi</h1>
+                <p>I'm Sanket! from D.Y.P. Collage of Engineering In 
+                    Kolhapur, Bawda. I want to be a full stack developer and I'm passionate about web development and
+                    i like to do competitive programming. 
+                   </p>
+    
+            </div>
+
+            <div class="socialLinks row-span-1 md:col-span-1 flex flex-wrap p-3 h-auto  border-0 md:border-l-2 md:border-gray-300">
+                <div class="lnkd w-12 h-12 m-1 mx-3">
+                    <a href="https://www.linkedin.com/"
+                    target="_blank">
+                        <img src="/img/linkedin.svg" alt="" >
+                    </a>
+                </div>
+
+                <div class="lnkd w-12 h-12 m-1 mx-3">
+                    <a href="https://www.instagram.com/"
+                    target="_blank">
+                        <img src="/img/instagram.svg" alt="" >
+                    </a>
+                </div>
+
+                <div class="lnkd w-12 h-12 m-1 mx-3">
+                    <a href="https://www.x.com/"
+                    target="_blank"
+                    >
+                        <img src="/img/twitter.svg" alt="" >
+                    </a>
+                </div>
+
+                <div class="lnkd w-12 h-12 m-1 mx-3">
+                    <a href="https://www.facebook.com/"
+                    target="_blank">
+                        <img src="/img/facebook.svg" alt="" >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+         
+    </div>
+   
+
+    
+    
+
+
+    <footer class="footer mt-4 p-4 dark:bg-gray-800 dark:text-white">
+        <div class="flex flex-wrap sm:flex-row  sm:justify-between items-center mx-8">
+            <div class="pfp flex flex-wrap title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-gray-200">
+                <img src="/img/logo.png" alt="logo" height="56px" width="56px" >
+                <div class="text-purple-500 p-2">Code With Appi</div>
+                <div class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 mt-4 md:mt-2 mb-2 md:mb-0 text-center dark:text-gray-400" >A WebProject By >CSE-C Students</div>
+            </div>
+            <div class="copy"></div>
+            <div class="contact mx-auto sm:mx-0">
+                <i class="fa fa-users"></i>
+                <a href="/contact.html">Social Media Handles</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
