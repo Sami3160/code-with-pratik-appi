@@ -104,7 +104,7 @@
 /* cse.html css */
 #syllabus-container {
   display: flex;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .subject {
   height: 140px;

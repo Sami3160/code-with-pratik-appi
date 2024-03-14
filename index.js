@@ -1,18 +1,30 @@
+import fs from "fs"
+
 const sem = document.getElementById("sem");
 
-console.log(sem);
+const data=fs.readFileSync("./JSON/subjects.json")
+const subjectRef={
+  "Sem III":"semister3",
+  "Sem IV":"semester4"
+}
 
 function onSemClick(context) {
   const semList = document.querySelectorAll(".semList");
+  const syllabusContainer= document.getElementById("syllabus-container");
+  if(syllabusContainer.firstChild){
+    syllabusContainer.removeChild(syllabusContainer.firstChild)
+  }
+
+
+  const semData=data[subjectRef[context.innerText]]
+
+  const subjectData=semData["subject"]
 
   for (const ele of semList[0].children) {
     ele.classList.remove("active");
-    //console.log(ele)
   }
   context.classList.add("active");
 
-  // console.log(context);
-  // context.addClassName('active');
 }
 
 const CSENotesPerSEM = {
@@ -44,18 +56,18 @@ const CSENotesPerSEM = {
     syllabusLink: ["/notes/Linux Helpful Commands List.pdf","/notes/DSA_CompleteNotes (1).pdf"],
   },
 };
-var buttonIds = ["sem3", "sem4", "sem5", "sem6"];
+// var buttonIds = ["sem3", "sem4", "sem5", "sem6"];
 
-// Loop through the array of button IDs
-buttonIds.forEach(function (id) {
-  // Get the button element by its ID
-  var button = document.getElementById(id);
+// // Loop through the array of button IDs
+// buttonIds.forEach(function (id) {
+//   // Get the button element by its ID
+//   var button = document.getElementById(id);
 
-  // Add onclick event listener
-  button.addEventListener("click", function () {
-    getSyllabus(id);
-  });
-});
+//   // Add onclick event listener
+//   button.addEventListener("click", function () {
+//     getSyllabus(id);
+//   });
+// });
 
 const getSyllabus = (sem) => {
   console.log(CSENotesPerSEM[sem].syllabus);
