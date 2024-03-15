@@ -1,372 +1,1571 @@
 {
-    "semister3":{
-        "subject":[
-            {
-                "java":{
-                    "img":"java.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"java1.pdf"
-                        },
-                        {
-                            "note2":"java2.pdf"
-                        }
-                    ],
-                    "syllabus":"java.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"java2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"java2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"java1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"java2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+    "semister3": {
+        "subject": [
+            [
+                {
+                    "name": "Java",
+                    "props": {
+                        "img": "java.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "java1.pdf"
+                            },
+                            {
+                                "note2": "java2.pdf"
+                            }
+                        ],
+                        "syllabus": "java.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "java2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "java2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "java1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "java2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 },
-                "operatingSystem":{
-                    "img":"os.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"os1.pdf"
-                        },
-                        {
-                            "note2":"os2.pdf"
-                        }
-                    ],
-                    "syllabus":"os.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"os2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"os2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"os1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"os2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+                {
+                    "name": "Operating System",
+                    "props": {
+                        "img": "os.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "os1.pdf"
+                            },
+                            {
+                                "note2": "os2.pdf"
+                            }
+                        ],
+                        "syllabus": "os.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "os2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "os2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "os1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "os2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 },
-                "automataTheroy":{
-                    "img":"automata.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"automata1.pdf"
-                        },
-                        {
-                            "note2":"automata2.pdf"
-                        }
-                    ],
-                    "syllabus":"automata.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"automata2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"automata2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"automata1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"automata2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+                {
+                    "name": "Automata Theroy",
+                    "props": {
+                        "img": "automata.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "automata1.pdf"
+                            },
+                            {
+                                "note2": "automata2.pdf"
+                            }
+                        ],
+                        "syllabus": "automata.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "automata2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "automata2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "automata1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "automata2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 },
-                "fuzzyStatistics":{
-                    "img":"fuzzy.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"fuzzy1.pdf"
-                        },
-                        {
-                            "note2":"fuzzy2.pdf"
-                        }
-                    ],
-                    "syllabus":"fuzzy.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"fuzzy2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"fuzzy2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"fuzzy1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"fuzzy2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+                {
+                    "name": "Fuzzy Statistics",
+                    "props": {
+                        "img": "fuzzy.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "fuzzy1.pdf"
+                            },
+                            {
+                                "note2": "fuzzy2.pdf"
+                            }
+                        ],
+                        "syllabus": "fuzzy.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "fuzzy2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "fuzzy2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "fuzzy1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "fuzzy2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 },
-                "echonomics":{
-                    "img":"echonomics.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"echonomics1.pdf"
-                        },
-                        {
-                            "note2":"echonomics2.pdf"
-                        }
-                    ],
-                    "syllabus":"echonomics.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"echonomics2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"echonomics2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"echonomics1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"echonomics2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+                {   "name": "Economics",
+                    "props": {
+                        "img": "economics.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "economics1.pdf"
+                            },
+                            {
+                                "note2": "economics2.pdf"
+                            }
+                        ],
+                        "syllabus": "economics.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "economics2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "economics2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "economics1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "economics2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 },
-                "computerNetwork":{
-                    "img":"network.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"network1.pdf"
-                        },
-                        {
-                            "note2":"network2.pdf"
-                        }
-                    ],
-                    "syllabus":"network.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"network2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"network2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"network1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"network2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+                {
+                    "name": "Computer Network",
+                    "props": {
+                        "img": "network.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "network1.pdf"
+                            },
+                            {
+                                "note2": "network2.pdf"
+                            }
+                        ],
+                        "syllabus": "network.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "network2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "network2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "network1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "network2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 }
-            },
+            ],
             {
-                "syllabus":[
+                "syllabus": [
                     "java.pdf",
                     "os.pdf",
                     "automata.pdf",
                     "fuzzy.pdf",
-                    "echonomics.pdf",
+                    "economics.pdf",
                     "network.pdf"
                 ]
             }
-            
         ]
     },
-    "semister4":{
-        "subject":[
-            {
-                "java":{
-                    "img":"java.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"java1.pdf"
-                        },
-                        {
-                            "note2":"java2.pdf"
-                        }
-                    ],
-                    "syllabus":"java.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"java2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"java2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"java1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"java2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+    "semister4": {
+        "subject": [
+            [
+                {
+                    "name": "Java",
+                    "props": {
+                        "img": "java.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "java1.pdf"
+                            },
+                            {
+                                "note2": "java2.pdf"
+                            }
+                        ],
+                        "syllabus": "java.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "java2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "java2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "java1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "java2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 },
-                "operatingSystem":{
-                    "img":"os.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"os1.pdf"
-                        },
-                        {
-                            "note2":"os2.pdf"
-                        }
-                    ],
-                    "syllabus":"os.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"os2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"os2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"os1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"os2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+                {
+                    "name": "Operating System",
+                    "props": {
+                        "img": "os.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "os1.pdf"
+                            },
+                            {
+                                "note2": "os2.pdf"
+                            }
+                        ],
+                        "syllabus": "os.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "os2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "os2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "os1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "os2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 },
-                "dataStructure":{
-                    "img":"datastructure.png",
-                    "isTheoryTest":"true",
-                    "isPracticalTest":"true",
-                    "isProject":"true",
-                    "isExternal":"true",
-                    "notes":[
-                        {
-                            "note1":"datastructure1.pdf"
-                        },
-                        {
-                            "note2":"datastructure2.pdf"
-                        }
-                    ],
-                    "syllabus":"datastructure.pdf",
-                    "questionPapers":[
-                        {
-                            "year":"2018",
-                            "questionPaper":"datastructure2018.pdf"
-                        },
-                        {
-                            "year":"2017",
-                            "questionPaper":"datastructure2017.pdf"
-                        }
-                    ],
-                    "referenceBooks":[
-                        {
-                            "book1":"datastructure1.pdf",
-                            "author":"author1",
-                            "year":"2018"
-                        },
-                        {
-                            "book2":"datastructure2.pdf",
-                            "author":"author2",
-                            "year":"2017"
-                        }
-                    ]
+                {
+                    "name": "Automata Theroy",
+                    "props": {
+                        "img": "automata.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "automata1.pdf"
+                            },
+                            {
+                                "note2": "automata2.pdf"
+                            }
+                        ],
+                        "syllabus": "automata.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "automata2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "automata2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "automata1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "automata2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Fuzzy Statistics",
+                    "props": {
+                        "img": "fuzzy.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "fuzzy1.pdf"
+                            },
+                            {
+                                "note2": "fuzzy2.pdf"
+                            }
+                        ],
+                        "syllabus": "fuzzy.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "fuzzy2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "fuzzy2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "fuzzy1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "fuzzy2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Economics",
+                    "props": {
+                        "img": "economics.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "economics1.pdf"
+                            },
+                            {
+                                "note2": "economics2.pdf"
+                            }
+                        ],
+                        "syllabus": "economics.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "economics2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "economics2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "economics1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "economics2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Computer Network",
+                    "props": {
+                        "img": "network.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "network1.pdf"
+                            },
+                            {
+                                "note2": "network2.pdf"
+                            }
+                        ],
+                        "syllabus": "network.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "network2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "network2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "network1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "network2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
                 }
-            },
+            ],
             {
-                "syllabus":[
+                "syllabus": [
                     "java.pdf",
                     "os.pdf",
-                    "datastructure.pdf"
+                    "automata.pdf",
+                    "fuzzy.pdf",
+                    "economics.pdf",
+                    "network.pdf"
+                ]
+            }
+        ]
+    },
+    "semister5": {
+        "subject": [
+            [
+                {
+                    "name": "Java",
+                    "props": {
+                        "img": "java.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "java1.pdf"
+                            },
+                            {
+                                "note2": "java2.pdf"
+                            }
+                        ],
+                        "syllabus": "java.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "java2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "java2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "java1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "java2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Operating System",
+                    "props": {
+                        "img": "os.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "os1.pdf"
+                            },
+                            {
+                                "note2": "os2.pdf"
+                            }
+                        ],
+                        "syllabus": "os.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "os2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "os2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "os1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "os2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Automata Theroy",
+                    "props": {
+                        "img": "automata.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "automata1.pdf"
+                            },
+                            {
+                                "note2": "automata2.pdf"
+                            }
+                        ],
+                        "syllabus": "automata.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "automata2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "automata2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "automata1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "automata2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Fuzzy Statistics",
+                    "props": {
+                        "img": "fuzzy.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "fuzzy1.pdf"
+                            },
+                            {
+                                "note2": "fuzzy2.pdf"
+                            }
+                        ],
+                        "syllabus": "fuzzy.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "fuzzy2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "fuzzy2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "fuzzy1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "fuzzy2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Economics",
+                    "props": {
+                        "img": "economics.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "economics1.pdf"
+                            },
+                            {
+                                "note2": "economics2.pdf"
+                            }
+                        ],
+                        "syllabus": "economics.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "economics2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "economics2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "economics1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "economics2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Computer Network",
+                    "props": {
+                        "img": "network.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "network1.pdf"
+                            },
+                            {
+                                "note2": "network2.pdf"
+                            }
+                        ],
+                        "syllabus": "network.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "network2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "network2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "network1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "network2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                }
+            ],
+            {
+                "syllabus": [
+                    "java.pdf",
+                    "os.pdf",
+                    "automata.pdf",
+                    "fuzzy.pdf",
+                    "economics.pdf",
+                    "network.pdf"
+                ]
+            }
+        ]
+    },
+    "semister6": {
+        "subject": [
+            [
+                {
+                    "name": "Java",
+                    "props": {
+                        "img": "java.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "java1.pdf"
+                            },
+                            {
+                                "note2": "java2.pdf"
+                            }
+                        ],
+                        "syllabus": "java.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "java2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "java2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "java1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "java2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Operating System",
+                    "props": {
+                        "img": "os.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "os1.pdf"
+                            },
+                            {
+                                "note2": "os2.pdf"
+                            }
+                        ],
+                        "syllabus": "os.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "os2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "os2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "os1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "os2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Automata Theroy",
+                    "props": {
+                        "img": "automata.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "automata1.pdf"
+                            },
+                            {
+                                "note2": "automata2.pdf"
+                            }
+                        ],
+                        "syllabus": "automata.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "automata2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "automata2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "automata1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "automata2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Fuzzy Statistics",
+                    "props": {
+                        "img": "fuzzy.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "fuzzy1.pdf"
+                            },
+                            {
+                                "note2": "fuzzy2.pdf"
+                            }
+                        ],
+                        "syllabus": "fuzzy.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "fuzzy2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "fuzzy2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "fuzzy1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "fuzzy2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Economics",
+                    "props": {
+                        "img": "economics.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "economics1.pdf"
+                            },
+                            {
+                                "note2": "economics2.pdf"
+                            }
+                        ],
+                        "syllabus": "economics.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "economics2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "economics2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "economics1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "economics2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Computer Network",
+                    "props": {
+                        "img": "network.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "network1.pdf"
+                            },
+                            {
+                                "note2": "network2.pdf"
+                            }
+                        ],
+                        "syllabus": "network.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "network2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "network2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "network1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "network2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                }
+            ],
+            {
+                "syllabus": [
+                    "java.pdf",
+                    "os.pdf",
+                    "automata.pdf",
+                    "fuzzy.pdf",
+                    "economics.pdf",
+                    "network.pdf"
+                ]
+            }
+        ]
+    },
+    "semister7": {
+        "subject": [
+            [
+                {
+                    "name": "Java",
+                    "props": {
+                        "img": "java.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "java1.pdf"
+                            },
+                            {
+                                "note2": "java2.pdf"
+                            }
+                        ],
+                        "syllabus": "java.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "java2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "java2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "java1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "java2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Operating System",
+                    "props": {
+                        "img": "os.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "os1.pdf"
+                            },
+                            {
+                                "note2": "os2.pdf"
+                            }
+                        ],
+                        "syllabus": "os.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "os2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "os2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "os1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "os2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Automata Theroy",
+                    "props": {
+                        "img": "automata.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "automata1.pdf"
+                            },
+                            {
+                                "note2": "automata2.pdf"
+                            }
+                        ],
+                        "syllabus": "automata.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "automata2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "automata2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "automata1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "automata2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Fuzzy Statistics",
+                    "props": {
+                        "img": "fuzzy.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "fuzzy1.pdf"
+                            },
+                            {
+                                "note2": "fuzzy2.pdf"
+                            }
+                        ],
+                        "syllabus": "fuzzy.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "fuzzy2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "fuzzy2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "fuzzy1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "fuzzy2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Economics",
+                    "props": {
+                        "img": "economics.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "economics1.pdf"
+                            },
+                            {
+                                "note2": "economics2.pdf"
+                            }
+                        ],
+                        "syllabus": "economics.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "economics2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "economics2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "economics1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "economics2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Computer Network",
+                    "props": {
+                        "img": "network.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "network1.pdf"
+                            },
+                            {
+                                "note2": "network2.pdf"
+                            }
+                        ],
+                        "syllabus": "network.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "network2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "network2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "network1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "network2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                }
+            ],
+            {
+                "syllabus": [
+                    "java.pdf",
+                    "os.pdf",
+                    "automata.pdf",
+                    "fuzzy.pdf",
+                    "economics.pdf",
+                    "network.pdf"
+                ]
+            }
+        ]
+    },
+    "semister8": {
+        "subject": [
+            [
+                {
+                    "name": "Java",
+                    "props": {
+                        "img": "java.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "java1.pdf"
+                            },
+                            {
+                                "note2": "java2.pdf"
+                            }
+                        ],
+                        "syllabus": "java.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "java2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "java2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "java1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "java2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Operating System",
+                    "props": {
+                        "img": "os.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "os1.pdf"
+                            },
+                            {
+                                "note2": "os2.pdf"
+                            }
+                        ],
+                        "syllabus": "os.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "os2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "os2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "os1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "os2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Automata Theroy",
+                    "props": {
+                        "img": "automata.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "automata1.pdf"
+                            },
+                            {
+                                "note2": "automata2.pdf"
+                            }
+                        ],
+                        "syllabus": "automata.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "automata2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "automata2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "automata1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "automata2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Fuzzy Statistics",
+                    "props": {
+                        "img": "fuzzy.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "fuzzy1.pdf"
+                            },
+                            {
+                                "note2": "fuzzy2.pdf"
+                            }
+                        ],
+                        "syllabus": "fuzzy.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "fuzzy2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "fuzzy2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "fuzzy1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "fuzzy2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Economics",
+                    "props": {
+                        "img": "economics.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "economics1.pdf"
+                            },
+                            {
+                                "note2": "economics2.pdf"
+                            }
+                        ],
+                        "syllabus": "economics.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "economics2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "economics2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "economics1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "economics2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name":"Computer Network",
+                    "props": {
+                        "img": "network.png",
+                        "isTheoryTest": "true",
+                        "isPracticalTest": "true",
+                        "isProject": "true",
+                        "isExternal": "true",
+                        "notes": [
+                            {
+                                "note1": "network1.pdf"
+                            },
+                            {
+                                "note2": "network2.pdf"
+                            }
+                        ],
+                        "syllabus": "network.pdf",
+                        "questionPapers": [
+                            {
+                                "year": "2018",
+                                "questionPaper": "network2018.pdf"
+                            },
+                            {
+                                "year": "2017",
+                                "questionPaper": "network2017.pdf"
+                            }
+                        ],
+                        "referenceBooks": [
+                            {
+                                "book1": "network1.pdf",
+                                "author": "author1",
+                                "year": "2018"
+                            },
+                            {
+                                "book2": "network2.pdf",
+                                "author": "author2",
+                                "year": "2017"
+                            }
+                        ]
+                    }
+                }
+            ],
+            {
+                "syllabus": [
+                    "java.pdf",
+                    "os.pdf",
+                    "automata.pdf",
+                    "fuzzy.pdf",
+                    "economics.pdf",
+                    "network.pdf"
                 ]
             }
         ]

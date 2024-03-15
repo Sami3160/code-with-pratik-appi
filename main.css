@@ -132,3 +132,12 @@
   padding: 2px 6px;
   border: 1px solid #333333;
 }
+
+
+
+
+/* dynamic card css */
+
+.description{
+  height: 80%;
+}
