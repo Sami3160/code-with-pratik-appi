@@ -117,16 +117,18 @@ function handleCardClick(context){
 
   // syllabus cards code
   const syllabusComponent = document.createElement("div")
-  syllabusComponent.className="col-span-1 min-w-24 flex flex-col space-y-4 bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
-  const info=document.createElement('div')
-  info.innerHTML=`[Java ${subjectInfo.name}]`
+  syllabusComponent.className="col-span-1 min-w-24 flex flex-col space-y-4 justify-center bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
+  const sbinfo=document.createElement('div')
+  sbinfo.className="text-sm"
+  sbinfo.innerHTML=`[${subjectInfo.name} syllabus]`
+  
   const a=document.createElement("a");
   a.href=syllabusData
   a.target="_blank"
   a.title="Download or View"
   a.innerHTML="Download"
   a.className="inline-block text-white bg-purple-700 rounded-full p-2 text-sm cursor-pointer hover:bg-purple-900 text-center"
-  syllabusComponent.appendChild(info)
+  syllabusComponent.appendChild(sbinfo)
   syllabusComponent.appendChild(a)
   semisterDiv.appendChild(syllabusComponent)
 
@@ -137,12 +139,14 @@ function handleCardClick(context){
   notesData.map((obj, index)=>{
     const notesComponent= document.createElement("div")  
     const info=document.createElement('div')
+    const info2=document.createElement('div')
     const a=document.createElement("a");
     const no=document.createElement("p")
 
-    notesComponent.className="col-span-1 min-w-24 flex flex-col  space-y-4 bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
+    notesComponent.className="col-span-1 min-w-24 flex flex-col space-y-4 bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
     info.innerHTML=`[Notes for ${subjectInfo.name}]`
-    no.className="text-2xl font-extrabold p-2"
+    info2.innerHTML="Type: PDF"
+    no.className="text-3xl font-extrabold p-2"
     no.innerHTML=`#${index+1}`
     a.href=obj.note
     a.target="_blank"
@@ -152,6 +156,7 @@ function handleCardClick(context){
     
     notesComponent.appendChild(no)
     notesComponent.appendChild(info)
+    notesComponent.appendChild(info2)
     notesComponent.appendChild(a)
     semisterDiv.appendChild(notesComponent )
   })
@@ -167,10 +172,10 @@ function handleCardClick(context){
     const no=document.createElement("p")
 
 
-    questionPaperComponent.className="col-span-1 min-w-24 flex flex-col space-y-4 bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
+    questionPaperComponent.className="col-span-1 min-w-24 flex flex-col space-y-3 bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
     info.innerHTML=`[Question papers: ${subjectInfo.name}]`
     info2.innerHTML=`Year: ${obj.year}`
-    no.className="text-2xl font-extrabold p-2"
+    no.className="text-3xl font-extrabold p-2"
     no.innerHTML=`#${index+1}`
     a.href=obj.questionPaper
     a.target="_blank"
@@ -197,11 +202,11 @@ function handleCardClick(context){
     const no=document.createElement("p")
 
 
-    referenceBookComponent.className="col-span-1 min-w-24 flex flex-col space-y-4 bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
+    referenceBookComponent.className="col-span-1 min-w-24 flex flex-col space-y-2 bg-purple-100 shadow-xl p-2  text-xs sm:text-sm hover:bg-purple-200 flex flex-col font-thin my-4"
     info.innerHTML=`[Reference books for ${subjectInfo.name}]`
     info2.innerHTML=`Year: ${obj.year}`
     info3.innerHTML=`Author: ${obj.author}`
-    no.className="text-2xl font-extrabold p-2"
+    no.className="text-3xl font-extrabold p-2"
     no.innerHTML=`#${index+1}`
     a.href=obj.book
     a.target="_blank"
