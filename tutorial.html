@@ -23,11 +23,11 @@
     <nav class="flex-col" style="box-shadow: 0 4px 20px rgba(128, 0, 128, 0.747);">
 
 
-        <nav class="navbar sticky top-0 flex flex-wrap justify-between items-center p-4  border border-black-[5px] ">
+        <nav class="navbar sticky top-0 flex flex-wrap justify-between items-center p-4  border border-black-[5px] bg-white">
             <div class="home text-purple-600">
                 <a href="index.html" class="text-2xl font-extrabold ">Code with Pratik</a>
             </div>
-            <div class="menu-icon block md:hidden">
+            <div class="menu-icon block md:hidden ">
                 <button class="text-3xl text-purple-600 px-2"
                     onclick="document.querySelector('.menu').classList.toggle('hidden');document.querySelector('.menu-icon').classList.toggle('hidden')">
                     &#9776;
@@ -44,7 +44,7 @@
                         <a href="http://me.dypgroup.edu.in/" 
                         target="_blank"
                         
-                        class=" ">Juno</a>
+                        class=" ">Juno </a>
                     </li>
                     <li class="mr-6">
                         <i class="fa fa-video "></i>
@@ -65,10 +65,10 @@
                 </ul>
             </div>
 
-            <div class="menu hidden md:hidden relative z-50 ">
+            <div class="menu hidden md:hidden relative ">
                 <div class="backdrop1 fixed inset-0 " style="background-color: #d4a9ff9f;">
                     <nav
-                        class="fixed top-0 left-0 bottom-0 flex flex-col bg-purple-500 overflow-y-auto w-5/6 sm:w-1/4 py-6 px-6 ">
+                        class="fixed top-0 left-0 bottom-0 z-50 flex flex-col bg-purple-500 overflow-y-auto w-5/6 sm:w-1/4 py-6 px-6 ">
                         <div class="close text px-6">
                             <button class="text-3xl text-white p-2"
                                 onclick="document.querySelector('.menu').classList.toggle('hidden');document.querySelector('.menu-icon').classList.toggle('hidden')">
@@ -149,7 +149,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="dropdownLanguages hidden my-2 justify-center">
+                <div class="dropdownLanguages hidden my-2 justify-center z-40">
                     <Label name="" id="" class="Label-list p-2 bg-white border border-purple-500-[3px]  rounded-lg "
                         onclick="document.querySelector('.dropdown-content').classList.toggle('hidden')">
                         Languages

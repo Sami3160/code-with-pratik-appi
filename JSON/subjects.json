@@ -5,17 +5,17 @@
                 {
                     "name": "Java",
                     "props": {
-                        "img": "java.png",
+                        "img": "./files/sem1/./files/sem1/java.png",
                         "isTheoryTest": "true",
                         "isPracticalTest": "true",
                         "isProject": "true",
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "java1.pdf"
+                                "note": "java1.pdf"
                             },
                             {
-                                "note2": "java2.pdf"
+                                "note": "java2.pdf"
                             }
                         ],
                         "syllabus": "java.pdf",
@@ -31,12 +31,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "java1.pdf",
+                                "book": "java1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "java2.pdf",
+                                "book": "java2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -53,10 +53,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "os1.pdf"
+                                "note": "os1.pdf"
                             },
                             {
-                                "note2": "os2.pdf"
+                                "note": "os2.pdf"
                             }
                         ],
                         "syllabus": "os.pdf",
@@ -72,12 +72,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "os1.pdf",
+                                "book": "os1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "os2.pdf",
+                                "book": "os2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -94,10 +94,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "automata1.pdf"
+                                "note": "automata1.pdf"
                             },
                             {
-                                "note2": "automata2.pdf"
+                                "note": "automata2.pdf"
                             }
                         ],
                         "syllabus": "automata.pdf",
@@ -113,12 +113,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "automata1.pdf",
+                                "book": "automata1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "automata2.pdf",
+                                "book": "automata2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -135,10 +135,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "fuzzy1.pdf"
+                                "note": "fuzzy1.pdf"
                             },
                             {
-                                "note2": "fuzzy2.pdf"
+                                "note": "fuzzy2.pdf"
                             }
                         ],
                         "syllabus": "fuzzy.pdf",
@@ -154,12 +154,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "fuzzy1.pdf",
+                                "book": "fuzzy1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "fuzzy2.pdf",
+                                "book": "fuzzy2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -175,10 +175,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "economics1.pdf"
+                                "note": "economics1.pdf"
                             },
                             {
-                                "note2": "economics2.pdf"
+                                "note": "economics2.pdf"
                             }
                         ],
                         "syllabus": "economics.pdf",
@@ -194,12 +194,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "economics1.pdf",
+                                "book": "economics1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "economics2.pdf",
+                                "book": "economics2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -216,10 +216,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "network1.pdf"
+                                "note": "network1.pdf"
                             },
                             {
-                                "note2": "network2.pdf"
+                                "note": "network2.pdf"
                             }
                         ],
                         "syllabus": "network.pdf",
@@ -235,12 +235,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "network1.pdf",
+                                "book": "network1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "network2.pdf",
+                                "book": "network2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -266,17 +266,17 @@
                 {
                     "name": "Java",
                     "props": {
-                        "img": "java.png",
+                        "img": "./files/sem1/java.png",
                         "isTheoryTest": "true",
                         "isPracticalTest": "true",
                         "isProject": "true",
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "java1.pdf"
+                                "note": "java1.pdf"
                             },
                             {
-                                "note2": "java2.pdf"
+                                "note": "java2.pdf"
                             }
                         ],
                         "syllabus": "java.pdf",
@@ -292,12 +292,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "java1.pdf",
+                                "book": "java1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "java2.pdf",
+                                "book": "java2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -314,10 +314,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "os1.pdf"
+                                "note": "os1.pdf"
                             },
                             {
-                                "note2": "os2.pdf"
+                                "note": "os2.pdf"
                             }
                         ],
                         "syllabus": "os.pdf",
@@ -333,12 +333,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "os1.pdf",
+                                "book": "os1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "os2.pdf",
+                                "book": "os2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -355,10 +355,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "automata1.pdf"
+                                "note": "automata1.pdf"
                             },
                             {
-                                "note2": "automata2.pdf"
+                                "note": "automata2.pdf"
                             }
                         ],
                         "syllabus": "automata.pdf",
@@ -374,12 +374,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "automata1.pdf",
+                                "book": "automata1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "automata2.pdf",
+                                "book": "automata2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -396,10 +396,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "fuzzy1.pdf"
+                                "note": "fuzzy1.pdf"
                             },
                             {
-                                "note2": "fuzzy2.pdf"
+                                "note": "fuzzy2.pdf"
                             }
                         ],
                         "syllabus": "fuzzy.pdf",
@@ -415,12 +415,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "fuzzy1.pdf",
+                                "book": "fuzzy1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "fuzzy2.pdf",
+                                "book": "fuzzy2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -437,10 +437,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "economics1.pdf"
+                                "note": "economics1.pdf"
                             },
                             {
-                                "note2": "economics2.pdf"
+                                "note": "economics2.pdf"
                             }
                         ],
                         "syllabus": "economics.pdf",
@@ -456,12 +456,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "economics1.pdf",
+                                "book": "economics1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "economics2.pdf",
+                                "book": "economics2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -478,10 +478,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "network1.pdf"
+                                "note": "network1.pdf"
                             },
                             {
-                                "note2": "network2.pdf"
+                                "note": "network2.pdf"
                             }
                         ],
                         "syllabus": "network.pdf",
@@ -497,12 +497,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "network1.pdf",
+                                "book": "network1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "network2.pdf",
+                                "book": "network2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -528,17 +528,17 @@
                 {
                     "name": "Java",
                     "props": {
-                        "img": "java.png",
+                        "img": "./files/sem1/java.png",
                         "isTheoryTest": "true",
                         "isPracticalTest": "true",
                         "isProject": "true",
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "java1.pdf"
+                                "note": "java1.pdf"
                             },
                             {
-                                "note2": "java2.pdf"
+                                "note": "java2.pdf"
                             }
                         ],
                         "syllabus": "java.pdf",
@@ -554,12 +554,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "java1.pdf",
+                                "book": "java1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "java2.pdf",
+                                "book": "java2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -576,10 +576,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "os1.pdf"
+                                "note": "os1.pdf"
                             },
                             {
-                                "note2": "os2.pdf"
+                                "note": "os2.pdf"
                             }
                         ],
                         "syllabus": "os.pdf",
@@ -595,12 +595,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "os1.pdf",
+                                "book": "os1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "os2.pdf",
+                                "book": "os2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -617,10 +617,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "automata1.pdf"
+                                "note": "automata1.pdf"
                             },
                             {
-                                "note2": "automata2.pdf"
+                                "note": "automata2.pdf"
                             }
                         ],
                         "syllabus": "automata.pdf",
@@ -636,12 +636,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "automata1.pdf",
+                                "book": "automata1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "automata2.pdf",
+                                "book": "automata2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -658,10 +658,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "fuzzy1.pdf"
+                                "note": "fuzzy1.pdf"
                             },
                             {
-                                "note2": "fuzzy2.pdf"
+                                "note": "fuzzy2.pdf"
                             }
                         ],
                         "syllabus": "fuzzy.pdf",
@@ -677,12 +677,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "fuzzy1.pdf",
+                                "book": "fuzzy1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "fuzzy2.pdf",
+                                "book": "fuzzy2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -699,10 +699,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "economics1.pdf"
+                                "note": "economics1.pdf"
                             },
                             {
-                                "note2": "economics2.pdf"
+                                "note": "economics2.pdf"
                             }
                         ],
                         "syllabus": "economics.pdf",
@@ -718,12 +718,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "economics1.pdf",
+                                "book": "economics1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "economics2.pdf",
+                                "book": "economics2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -740,10 +740,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "network1.pdf"
+                                "note": "network1.pdf"
                             },
                             {
-                                "note2": "network2.pdf"
+                                "note": "network2.pdf"
                             }
                         ],
                         "syllabus": "network.pdf",
@@ -759,12 +759,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "network1.pdf",
+                                "book": "network1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "network2.pdf",
+                                "book": "network2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -790,17 +790,17 @@
                 {
                     "name": "Java",
                     "props": {
-                        "img": "java.png",
+                        "img": "./files/sem1/java.png",
                         "isTheoryTest": "true",
                         "isPracticalTest": "true",
                         "isProject": "true",
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "java1.pdf"
+                                "note": "java1.pdf"
                             },
                             {
-                                "note2": "java2.pdf"
+                                "note": "java2.pdf"
                             }
                         ],
                         "syllabus": "java.pdf",
@@ -816,12 +816,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "java1.pdf",
+                                "book": "java1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "java2.pdf",
+                                "book": "java2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -838,10 +838,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "os1.pdf"
+                                "note": "os1.pdf"
                             },
                             {
-                                "note2": "os2.pdf"
+                                "note": "os2.pdf"
                             }
                         ],
                         "syllabus": "os.pdf",
@@ -857,12 +857,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "os1.pdf",
+                                "book": "os1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "os2.pdf",
+                                "book": "os2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -879,10 +879,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "automata1.pdf"
+                                "note": "automata1.pdf"
                             },
                             {
-                                "note2": "automata2.pdf"
+                                "note": "automata2.pdf"
                             }
                         ],
                         "syllabus": "automata.pdf",
@@ -898,12 +898,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "automata1.pdf",
+                                "book": "automata1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "automata2.pdf",
+                                "book": "automata2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -920,10 +920,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "fuzzy1.pdf"
+                                "note": "fuzzy1.pdf"
                             },
                             {
-                                "note2": "fuzzy2.pdf"
+                                "note": "fuzzy2.pdf"
                             }
                         ],
                         "syllabus": "fuzzy.pdf",
@@ -939,12 +939,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "fuzzy1.pdf",
+                                "book": "fuzzy1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "fuzzy2.pdf",
+                                "book": "fuzzy2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -961,10 +961,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "economics1.pdf"
+                                "note": "economics1.pdf"
                             },
                             {
-                                "note2": "economics2.pdf"
+                                "note": "economics2.pdf"
                             }
                         ],
                         "syllabus": "economics.pdf",
@@ -980,12 +980,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "economics1.pdf",
+                                "book": "economics1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "economics2.pdf",
+                                "book": "economics2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1002,10 +1002,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "network1.pdf"
+                                "note": "network1.pdf"
                             },
                             {
-                                "note2": "network2.pdf"
+                                "note": "network2.pdf"
                             }
                         ],
                         "syllabus": "network.pdf",
@@ -1021,12 +1021,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "network1.pdf",
+                                "book": "network1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "network2.pdf",
+                                "book": "network2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1052,17 +1052,17 @@
                 {
                     "name": "Java",
                     "props": {
-                        "img": "java.png",
+                        "img": "./files/sem1/java.png",
                         "isTheoryTest": "true",
                         "isPracticalTest": "true",
                         "isProject": "true",
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "java1.pdf"
+                                "note": "java1.pdf"
                             },
                             {
-                                "note2": "java2.pdf"
+                                "note": "java2.pdf"
                             }
                         ],
                         "syllabus": "java.pdf",
@@ -1078,12 +1078,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "java1.pdf",
+                                "book": "java1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "java2.pdf",
+                                "book": "java2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1100,10 +1100,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "os1.pdf"
+                                "note": "os1.pdf"
                             },
                             {
-                                "note2": "os2.pdf"
+                                "note": "os2.pdf"
                             }
                         ],
                         "syllabus": "os.pdf",
@@ -1119,12 +1119,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "os1.pdf",
+                                "book": "os1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "os2.pdf",
+                                "book": "os2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1141,10 +1141,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "automata1.pdf"
+                                "note": "automata1.pdf"
                             },
                             {
-                                "note2": "automata2.pdf"
+                                "note": "automata2.pdf"
                             }
                         ],
                         "syllabus": "automata.pdf",
@@ -1160,12 +1160,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "automata1.pdf",
+                                "book": "automata1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "automata2.pdf",
+                                "book": "automata2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1182,10 +1182,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "fuzzy1.pdf"
+                                "note": "fuzzy1.pdf"
                             },
                             {
-                                "note2": "fuzzy2.pdf"
+                                "note": "fuzzy2.pdf"
                             }
                         ],
                         "syllabus": "fuzzy.pdf",
@@ -1201,12 +1201,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "fuzzy1.pdf",
+                                "book": "fuzzy1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "fuzzy2.pdf",
+                                "book": "fuzzy2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1223,10 +1223,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "economics1.pdf"
+                                "note": "economics1.pdf"
                             },
                             {
-                                "note2": "economics2.pdf"
+                                "note": "economics2.pdf"
                             }
                         ],
                         "syllabus": "economics.pdf",
@@ -1242,12 +1242,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "economics1.pdf",
+                                "book": "economics1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "economics2.pdf",
+                                "book": "economics2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1264,10 +1264,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "network1.pdf"
+                                "note": "network1.pdf"
                             },
                             {
-                                "note2": "network2.pdf"
+                                "note": "network2.pdf"
                             }
                         ],
                         "syllabus": "network.pdf",
@@ -1283,12 +1283,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "network1.pdf",
+                                "book": "network1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "network2.pdf",
+                                "book": "network2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1314,17 +1314,17 @@
                 {
                     "name": "Java",
                     "props": {
-                        "img": "java.png",
+                        "img": "./files/sem1/java.png",
                         "isTheoryTest": "true",
                         "isPracticalTest": "true",
                         "isProject": "true",
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "java1.pdf"
+                                "note": "java1.pdf"
                             },
                             {
-                                "note2": "java2.pdf"
+                                "note": "java2.pdf"
                             }
                         ],
                         "syllabus": "java.pdf",
@@ -1340,12 +1340,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "java1.pdf",
+                                "book": "java1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "java2.pdf",
+                                "book": "java2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1362,10 +1362,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "os1.pdf"
+                                "note": "os1.pdf"
                             },
                             {
-                                "note2": "os2.pdf"
+                                "note": "os2.pdf"
                             }
                         ],
                         "syllabus": "os.pdf",
@@ -1381,12 +1381,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "os1.pdf",
+                                "book": "os1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "os2.pdf",
+                                "book": "os2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1403,10 +1403,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "automata1.pdf"
+                                "note": "automata1.pdf"
                             },
                             {
-                                "note2": "automata2.pdf"
+                                "note": "automata2.pdf"
                             }
                         ],
                         "syllabus": "automata.pdf",
@@ -1422,12 +1422,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "automata1.pdf",
+                                "book": "automata1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "automata2.pdf",
+                                "book": "automata2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1444,10 +1444,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "fuzzy1.pdf"
+                                "note": "fuzzy1.pdf"
                             },
                             {
-                                "note2": "fuzzy2.pdf"
+                                "note": "fuzzy2.pdf"
                             }
                         ],
                         "syllabus": "fuzzy.pdf",
@@ -1463,12 +1463,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "fuzzy1.pdf",
+                                "book": "fuzzy1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "fuzzy2.pdf",
+                                "book": "fuzzy2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1485,10 +1485,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "economics1.pdf"
+                                "note": "economics1.pdf"
                             },
                             {
-                                "note2": "economics2.pdf"
+                                "note": "economics2.pdf"
                             }
                         ],
                         "syllabus": "economics.pdf",
@@ -1504,12 +1504,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "economics1.pdf",
+                                "book": "economics1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "economics2.pdf",
+                                "book": "economics2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
@@ -1526,10 +1526,10 @@
                         "isExternal": "true",
                         "notes": [
                             {
-                                "note1": "network1.pdf"
+                                "note": "network1.pdf"
                             },
                             {
-                                "note2": "network2.pdf"
+                                "note": "network2.pdf"
                             }
                         ],
                         "syllabus": "network.pdf",
@@ -1545,12 +1545,12 @@
                         ],
                         "referenceBooks": [
                             {
-                                "book1": "network1.pdf",
+                                "book": "network1.pdf",
                                 "author": "author1",
                                 "year": "2018"
                             },
                             {
-                                "book2": "network2.pdf",
+                                "book": "network2.pdf",
                                 "author": "author2",
                                 "year": "2017"
                             }
